@@ -1,0 +1,67 @@
+.body{
+
+    background-color:#EDD263;
+}
+
+.searchSec{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+#cardHeading{
+    display: block;
+}
+
+#cardDetails{
+    display: none;
+}
+
+#cardDetails2{
+    display: none;
+}
+
+#cardBody{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+}
+
+.cardStyle{
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+.cardStyle h5{
+    cursor: pointer;
+}
+
+
+.detailsDiv{
+    width: 30%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    background-color: white;
+
+    display: block;
+    margin: auto;
+}
+
+.detailsDiv img{
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+.ingredientsDiv{
+    padding-left: 20px;
+}
